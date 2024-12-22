@@ -16,10 +16,12 @@ const AppNavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div>
             <a className="navbar-brand" href="#">
               <img src={logo} alt="Logo" width="50" height="auto" />
             </a>
+          </div>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
